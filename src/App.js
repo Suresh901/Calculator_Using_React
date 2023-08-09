@@ -37,6 +37,7 @@ function App() {
   return (
     <div className="container">
       <form>
+        <h1>My Calculator</h1>
         <input type="text" value={result} onChange={(e) => setResult(e.target.value)} />
       </form>
       <div className="keypad">
